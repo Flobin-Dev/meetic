@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8c8cd748ab.js"></script>
+    <title>Search</title>
+  </head>
+  <body>
+
+    <i class="menu fas fa-bars"></i>
+    <div class="menu-background hide">
+      <ul class="menu-list">
+        <li class="menu-list-item"><a class="menu-link menuaccount" href="compte.html">Account</a></li>
+        <li class="menu-list-item"><a class="menu-link menulogout" href="javascript:void(0)">Log out</a></li>
+      </ul>
+    </div>
+    <nav class="navbar">
+      <h1 class="title">Search</h1>
+    </nav>
+    <aside class="aside">
+      <h3>Find your partner !</h3>
+      <form class="options" action="search.html" method="post">
+        <select class="gender" name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <input type="submit" name="submit" value="Search !">
+      </form>
+    </aside>
+      <div class="search">
+
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script/searchscript.js"></script>
+  </body>
+</html>

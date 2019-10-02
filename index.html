@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My_Meetic</title>
+  </head>
+  <body>
+
+    <div class="container center">
+      <form class="signup" action="compte.html" method="post">
+        <h1>Sign Up</h1>
+        <h2>My_mystic</h2>
+        <input class="name" type="text" name="name" placeholder="Name">
+        <input class="surname" type="text" name="surname" placeholder="Surname">
+        <input class="birthdate" type="date" name="date">
+
+        <select class="gender" name="gender">
+          <option value="gender">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <input class="city" type="text" name="city" placeholder="City">
+        <input class="email" type="email" name="email" placeholder="E-mail">
+        <input class="password" type="password" name="password" placeholder="Password">
+        <div class="result"></div>
+        <input class="submit" type="submit" name="submit" value="Create Account">
+        <a href="login.html">Already have an account ?</a>
+      </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script/signupscript.js"></script>
+  </body>
+</html>
